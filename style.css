@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: cover;   
+}
+body :hover{
+    color: darkred;
+    transition: 0.5s ease-in-out;
+    
+}
+body:hover,p:hover, h1:hover{
+    background-color: #9acfd1;
+    transition: 0.5s ease-in-out;
+}
+
+   
+header{
+    background-color:teal;
+    height: 5em;
+}
+
+
+header img{
+    margin-left: 2%;
+    margin-top: 10px;
+    height: 4em;
+
+}
+
+.head-tag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 40px;
+    font-size: 17px;
+     
+}
+
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 8px;
+}
+.head-tag a:hover{
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+}
+ 
+} 
+.dist a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+.dist a:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+    
+} 
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 355px;
+}
+ 
+
+
+.login{
+    float: center;
+    background-color: transparent ;
+    height: 20em;
+    width: 30em;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    margin-left: 15%;
+
+
+}
+h2{
+    color:black;
+    padding: 20px;
+}
+h3{
+    padding: 18px;
+}
+
+.login h2{
+    text-align: left ;
+}
+
+.login input{
+    float: center;
+    height: 2.5em;
+    width: 20em; 
+}
+.login-contents{
+    color: whitesmoke;
+}
+.login #login-button{
+    float: center;
+    width:20% ;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+} 
+.login-misc{
+    color: whitesmoke;
+}
+.login-misc a{
+    color: whitesmoke;
+}
+
+.Sign-up{
+    float: center;
+    
+    background-color: transparent ;
+    height: 10em;
+    width: 30em;
+    margin-top: 1%;
+    margin-right: 5%;
+    
+    padding: 45px;
+    margin-left: 40%;
+
+
+}
+
+.Sign-up h2{
+    text-align: left;
+}
+
+.Sign-up input{
+    float: center;
+    height: 2.5em;
+    width: 20em;
+}
+
+.Sign-up #Sign-up-button{
+    float: center;
+    width:20% ;
+    height: 1.8em;
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.Sign-up-contents{
+    color: whitesmoke;
+}
+.Sign-up-misc{
+    color: whitesmoke;
+}
+.Sign-up-misc a{
+    color: whitesmoke;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    
+}   
+footer{
+    background-color:teal;
+    color: whitesmoke;
+    height: 2.5em;
+    
+
+}
+footer h3{
+    text-align: center;
+    padding-top: 2px;  
+    
+}

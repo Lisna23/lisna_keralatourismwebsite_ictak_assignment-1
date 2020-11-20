@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+    
+    <header>
+      
+      <img src="images/logo white.jpeg" alt="logo">
+      
+      
+      
+      
+      <div class="head-tag">
+        
+          <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Districts.html">Districts</a>
+          <a href="Sign In.html">Sign In</a>
+          <a href=#>Sign Up</a>
+          <input type="text" placeholder="Search">
+     </div>
+    
+   </header>
+ <script src="form.js"></script>
+ <script src="password.js"></script>
+ <script src="phn.js"></script>
+  <form action="index.html" class="Sign-up" id="form">
+
+    <h2>User Sign-Up</h2>
+    <br>
+
+    <div class="Sign-up-contents">
+        <label>First Name</label>
+        <br>
+        <input type="text" placeholder="Enter First Name">
+    </div >
+
+    <br>
+
+    <div class="Sign-up-contents">
+        <label>Last Name</label>
+        <br>
+        <input type="text" placeholder="Enter Last Name">
+    </div >
+    <div class="Sign-up-contents">
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your Email" id="email" onkeydown="validation()" required> 
+        <span id="text"></span>
+    </div >
+    
+    <div class="Sign-up-contents"> 
+        <br>
+        <label>Phone Number</label>
+        <br>
+        <input type="text" placeholder="Enter your Phone Number" id="phnum" onkeydown="phvalidation()" required>
+        <span id="phtext"></span>
+    </div >
+    
+    <div class="Sign-up-contents">  
+      <br>
+      <label>password</label>
+      <br>
+      <div class="pass">
+      <input type="password" placeholder="Enter your password" id="password" onkeydown="pvalidation()" required >
+      <span id="ptext"></span>
+    </div>
+   </div >
+  <br>
+  <div class="Sign-up-contents">
+    <br>
+    <input type="password" placeholder="Repeat your password">
+  </div >
+  <br>
+  <div class="abc">
+        By creating an account you agree to our <a href="#"
+        style="color:dodgerblue">Terms & Privacy</a>
+  </div>
+  <br>
+  <div>
+    <button id="Sign-up-button">Sign Up</button>
+  </div>
+
+   <br>
+
+    <div class="Sign-up-misc">
+        <h5>Have alreagy an Account?</h5>
+        <a href="Sign In.html">Login here</a>
+        <br>
+        <br>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+</form>
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Sign Up.css">
+  <link rel="stylesheet" href="a.css">
+
+</head>    
+
+
+<body background="images/ue.jpeg">   
+</body>
+</html>

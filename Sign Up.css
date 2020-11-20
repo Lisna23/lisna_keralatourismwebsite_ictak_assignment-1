@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2060px;
+    
+    
+}
+h2{
+    color:whitesmoke;
+}
+.abc{
+    color: white;
+    padding: 0px;
+}
+body :hover{
+    color: tan;
+    transition: 0.5s ease-in-out;
+}
+#text
+{
+    display: block;
+    color: #000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+#form .Sign-up-contents{
+    position: relative;
+}
+#form.invalid .Sign-up-contents:before
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background : images/invalid.png; */
+    background-size: cover;
+    z-index: 1000;
+}
+#form.valid .Sign-up-contents:before
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background: url(invalid.png); */
+    background-size: cover;
+    z-index: 1000;
+}
+#ptext
+{
+    display: block;
+    color: #000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+#form .pass{
+    position: relative;
+}
+#form.invalid .pass::after
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background : images/invalid.png; */
+    background-size: cover;
+    z-index: 1000;
+}

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1850px;
+    background:"images/bisi.jpeg";
+   
+    
+}
+h2{
+    color:whitesmoke;
+}
+body :hover{
+    color: tan;
+    transition: 0.5s ease-in-out;
+}
+#text
+{
+    display: block;
+    color: #000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+#form .login-contents{
+    position: relative;
+}
+#form.invalid .login-contents:before
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background : images/invalid.png; */
+    background-size: cover;
+    z-index: 1000;
+}
+#form.valid .login-contents:before
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background: url(invalid.png); */
+    background-size: cover;
+    z-index: 1000;
+}
+#ptext
+{
+    display: block;
+    color: #000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+#form .pass{
+    position: relative;
+}
+#form.invalid .pass::after
+{
+    content: "";
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 24px;
+    height: 24px;
+    /* background : images/invalid.png; */
+    background-size: cover;
+    z-index: 1000;
+}
